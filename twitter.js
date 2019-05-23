@@ -50,6 +50,7 @@ const addFilterCount = async () => {
 const location_trend = localtion_id => {
    T.get("trends/place", { id: localtion_id }, (err, data, response) => {
     console.log(JSON.stringify(data, undefined, 2));
+    console.log('paul')
    });
    
 } 
